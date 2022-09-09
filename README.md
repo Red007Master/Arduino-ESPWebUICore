@@ -2,4 +2,4 @@
 
 Template/Core project for creating of ESP/Arduino frontend.
 
-![1](Files/Images/1.png)
+![1](Images/1.png)
