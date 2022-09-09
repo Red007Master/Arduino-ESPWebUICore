@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button.press {
+  padding-left: 7vmin;
+  padding-right: 7vmin;
+  font-size: 3vmin;
+  margin-right: 0.5vmin;
+  margin-top: 0.5vmin;
+  float: right;
+  text-align: center;
+
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+
+  transition: color 1s, border-radius 1s, background-color 1s, padding-left 0.2s,
+    padding-right 0.2s, margin-right 0.2s;
+}
+button.press:hover {
+  background-color: #353535;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button.press:active {
+  border-radius: 20px;
+  color: lightblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 30px;
+}
+
+p.infop {
+  padding: 0.4vmin;
+  margin: 0.4vmin;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 3vmin;
+  font-family: "consolas";
+}
+
+input.inputText {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 3vmin;
+
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid black;
+}
+input.inputText:focus {
+  outline: none !important;
+  border: 1px solid gray;
+  box-shadow: 0 0 10px #719ece;
+}
+
+input.inputSubmit {
+  padding-left: 2vmin;
+  padding-right: 2vmin;
+  font-size: 2.2vmin;
+
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+}
+
+p.inputP {
+  margin-top: 0vmin;
+  margin-left: 0.5vmin;
+  float: left;
+
+  color: white;
+  font-size: 2.8vmin;
+}

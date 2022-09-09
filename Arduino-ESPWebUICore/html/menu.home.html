@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="menu.home.css" />
+    <link rel="stylesheet" href="http://192.168.0.111:8080/fonts/consolas.ttf">
+</head>
+
+<body class="mainbody">
+    <header class="mainheader">
+        <script type="text/javascript" src="menu.home.js" defer></script>
+    </header>
+
+    <button class="press" id="pressbutton">PRESS</button>
+    <p class="infop" id="infop">System clock->22:03:05
+        <br>
+        --------------------------------
+        <br>
+        Work start--->8:20
+        <br>
+        Work end----->22:20
+        <br>
+        Interval----->2:20
+        <br>
+        Next work---->22:05 (in 1:23)
+        <br>
+        Last work---->20:05 (2:45 ago)
+        <br>
+        --------------------------------
+        <br>
+        Uptime------->5d 23h
+        <br>
+    </p>
+
+    <div class="inputs">
+        <form action="/input_set_work_start">
+            <p class="inputP">
+                Input1:
+                <input class="inputText" type="text" name="i_s_w_s" />
+                <input class="inputSubmit" type="submit" value="Submit" />
+            </p>
+        </form>
+    </div>
+
+</body>
+
+</html>
